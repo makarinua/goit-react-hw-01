@@ -1,0 +1,30 @@
+.textOnline{
+  color: green;
+}
+
+.textOfline{
+  color: red;
+}
+
+.friendsList{
+  background-color: transparent;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+
+.friendsImg {
+  width: 50px;
+  margin-bottom: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}  
+
+.friendsName {
+  font-size: 18px;
+  margin-bottom: 6px;
+  text-align: center;
+}

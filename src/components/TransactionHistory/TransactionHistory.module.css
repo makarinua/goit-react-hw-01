@@ -1,0 +1,29 @@
+.table {
+    width: 800px;
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+.table th {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+  }
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* сірий фон для парних рядків */
+}
+  
+.table tbody tr:nth-child(even) {
+    background-color: white; /* білий фон для непарних рядків */
+}
+  
+.table tbody td {
+    vertical-align: middle;
+}

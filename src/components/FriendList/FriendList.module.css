@@ -1,0 +1,18 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0;
+  }
+  
+.listContainer {
+    border: 1px solid black;
+    list-style-type: none;
+    border-radius: 10px;
+    flex-basis: calc((100% - 48px) / 6);
+    background-color: transparent;
+    padding: 5px;
+  }
